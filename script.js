@@ -21,9 +21,9 @@ form.addEventListener("submit", function (event) {
   const oz = kg * 35.274;
 
   output.innerHTML = `
-      <p>Svoris kilogramais: ${kg} kg</p>
-      <p>Svoris svarais: ${lb.toFixed(2)} lb</p>
-      <p>Svoris gramais: ${g.toFixed(2)} g</p>
-      <p>Svoris uncijomis: ${oz.toFixed(2)} oz</p>
+      <p>Weight in kg: ${kg} kg</p>
+      <p>Weight in lb: ${lb.toFixed(2)} lb</p>
+      <p>Weight in g: ${g.toFixed(2)} g</p>
+      <p>Weight in oz: ${oz.toFixed(2)} oz</p>
     `;
 });
